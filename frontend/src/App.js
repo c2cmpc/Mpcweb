@@ -177,26 +177,34 @@ function App() {
 
             <div className="grid md:grid-cols-2 gap-12 mb-16">
               <div className="space-y-8">
-                <div className="core-card" data-testid="lfh-axiom">
-                  <h3 className="text-2xl font-bold mb-4 text-cyan-400">LFH AXIOM</h3>
-                  <div className="text-4xl font-mono mb-4">H = L + F</div>
+                <div className="core-card love-card" data-testid="lfh-axiom">
+                  <h3 className="text-2xl font-bold mb-4 text-blue-400">LOVE (L): Cohesion & Integrity</h3>
+                  <div className="text-3xl font-mono mb-4 text-blue-300">Quantity 0 (Proof Erasure)</div>
                   <p className="text-gray-300 leading-relaxed">
-                    <strong className="text-white">Hope</strong> emerges from the synthesis of <strong className="text-white">Love</strong> (rigorous methodology) and <strong className="text-white">Fear</strong> (field-validated failure data). 
-                    We do not operate on optimism—we operate on verified thermal boundaries.
+                    The non-negotiable adherence to structural invariants (e.g., Hull Seal). 
+                    Enforces safety proofs with <strong className="text-white">zero runtime overhead</strong>. 
+                    This is rigorous methodology encoded into the system architecture.
                   </p>
                 </div>
 
-                <div className="core-card" data-testid="qtt-framework">
-                  <h3 className="text-2xl font-bold mb-4 text-cyan-400">QTT FRAMEWORK</h3>
-                  <p className="text-gray-300 leading-relaxed mb-4">
-                    <strong className="text-white">Quantum Thermal Theory</strong> is our proprietary approach to modeling entropy in non-standard environments. 
-                    Unlike conventional HVAC logic, QTT accounts for:
+                <div className="core-card fear-card" data-testid="fear-axiom">
+                  <h3 className="text-2xl font-bold mb-4 text-red-400">FEAR (F): Entropy & Constraint</h3>
+                  <div className="text-3xl font-mono mb-4 text-red-300">Quantity 1 (Linear Resource)</div>
+                  <p className="text-gray-300 leading-relaxed">
+                    Enforces <strong className="text-white">perfect resource conservation</strong>. 
+                    Every Joule and every liter must be accounted for and consumed exactly once. 
+                    Prevents resource collapse through cryptographic tracking.
                   </p>
-                  <ul className="list-disc list-inside space-y-2 text-gray-400">
-                    <li>Extreme ambient variability (−40°C to +60°C)</li>
-                    <li>Non-linear thermal loads (mining equipment, marine engines)</li>
-                    <li>Property-Based Testing (PBT) verification at every boundary</li>
-                  </ul>
+                </div>
+
+                <div className="core-card hope-card" data-testid="hope-axiom">
+                  <h3 className="text-2xl font-bold mb-4 text-green-400">HOPE (H): Potential & Vector</h3>
+                  <div className="text-3xl font-mono mb-4 text-green-300">Quantity ω (Unrestricted)</div>
+                  <p className="text-gray-300 leading-relaxed">
+                    The engine of <strong className="text-white">growth, R&D, and predictive modeling</strong>. 
+                    Utilizes unlimited telemetry to define the optimal path toward future states. 
+                    The expansion vector to the cosmos.
+                  </p>
                 </div>
               </div>
 
