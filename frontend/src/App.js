@@ -373,32 +373,33 @@ function App() {
               <div className="product-card" data-testid="pranadhara-product">
                 <div className="mb-6">
                   <div className="inline-block px-4 py-1 bg-cyan-500/20 border border-cyan-500/50 text-cyan-400 text-sm font-mono mb-4">
-                    HARDWARE
+                    THERMAL HARDWARE
                   </div>
                   <h3 className="text-4xl font-bold text-white mb-2">PRĀṆADHĀRA</h3>
-                  <p className="text-cyan-400 text-lg font-mono">Life Support Thermal Architecture</p>
+                  <p className="text-cyan-400 text-lg font-mono">High-Density Heat Rejection System</p>
                 </div>
 
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  PRĀṆADHĀRA is our modular thermal control hardware designed for extreme environments—from mining pits to orbital habitats. Built on QTT principles, verified through J Garage stress-testing.
+                  High-density heat rejection systems for <strong className="text-white">microgravity and orbital compute environments</strong>. 
+                  Designed to survive non-linear fluid dynamics and maximize radiative efficiency (Q ∝ ΔT⁴).
                 </p>
 
                 <div className="space-y-4">
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ Modular Architecture</div>
-                    <p className="text-gray-400 text-sm">Scalable from single-vehicle to facility-wide deployment</p>
+                    <div className="text-cyan-400 font-bold mb-1">→ Microgravity Optimized</div>
+                    <p className="text-gray-400 text-sm">Thermal architecture for zero-G environments</p>
                   </div>
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ Extreme Range Operation</div>
-                    <p className="text-gray-400 text-sm">Verified performance from −40°C to +60°C ambient</p>
+                    <div className="text-cyan-400 font-bold mb-1">→ Non-Linear Fluid Dynamics</div>
+                    <p className="text-gray-400 text-sm">Handles extreme thermal loads in mining, marine, tactical EV</p>
                   </div>
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ IDRIS Integration</div>
-                    <p className="text-gray-400 text-sm">Native software control and telemetry</p>
+                    <div className="text-cyan-400 font-bold mb-1">→ Radiative Efficiency Maximization</div>
+                    <p className="text-gray-400 text-sm">Q ∝ ΔT⁴ optimization for orbital compute</p>
                   </div>
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ Space-Ready Design</div>
-                    <p className="text-gray-400 text-sm">Engineering path to orbital thermal sovereignty</p>
+                    <div className="text-cyan-400 font-bold mb-1">→ IDRIS V8.0 Control Integration</div>
+                    <p className="text-gray-400 text-sm">Cognitive OS manages all thermal boundaries</p>
                   </div>
                 </div>
 
