@@ -45,8 +45,8 @@ function App() {
               <div className="text-2xl font-bold tracking-wider text-cyan-400">
                 CARBON<span className="text-white">TO</span>COSMOS
               </div>
-              <div className="hidden md:flex space-x-8">
-                {['beacon', 'core', 'heritage', 'products', 'future'].map((section, idx) => (
+              <div className="hidden md:flex space-x-6">
+                {['beacon', 'core', 'heritage', 'products', 'accountability', 'future'].map((section, idx) => (
                   <button
                     key={section}
                     onClick={() => scrollToSection(section)}
@@ -55,7 +55,7 @@ function App() {
                     }`}
                     data-testid={`nav-${section}`}
                   >
-                    {String(idx).padStart(2, '0')}. {section.toUpperCase()}
+                    {String(idx).padStart(2, '0')}. {section === 'accountability' ? 'LEDGER' : section.toUpperCase()}
                   </button>
                 ))}
               </div>
