@@ -6,7 +6,7 @@ const HERO_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/
 const COGNITIVE_ARCH_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/bl3jcr5p_Generated%20Image%20December%2011%2C%202025%20-%208_05PM.png";
 const HERITAGE_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/gh9hp9i9_Generated%20Image%20December%2011%2C%202025%20-%207_41PM.png";
 const LEDGER_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/xlr4xplw_Generated%20Image%20December%2011%2C%202025%20-%207_56PM.png";
-const IDRIS_LOGO = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/q49m3ckr_file_00000000072061fba44837a8b6f52684.png";
+const IDRIS_LOGO = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/qz4bu49i_file_00000000072061fba44837a8b6f52684%20%281%29.png";
 const COMPANY_LOGO = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/35c4kmjx_C2c%20PartsEuphoria%20Electric%20AC%20Pvt%20Ltd%20logo%281%29%20%287%29.png";
 
 function App() {
