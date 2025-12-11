@@ -43,8 +43,13 @@ function App() {
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-cyan-500/20">
           <div className="max-w-7xl mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
-              <div className="text-2xl font-bold tracking-wider text-cyan-400">
-                CARBON<span className="text-white">TO</span>COSMOS
+              <div>
+                <div className="text-2xl font-bold tracking-wider text-cyan-400">
+                  CARBON<span className="text-white">TO</span>COSMOS
+                </div>
+                <div className="text-xs text-gray-400 tracking-widest mt-1">
+                  SPACE AND DEFENCE
+                </div>
               </div>
               <div className="hidden md:flex space-x-6">
                 {['beacon', 'core', 'heritage', 'products', 'accountability', 'future'].map((section, idx) => (
