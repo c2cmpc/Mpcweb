@@ -128,6 +128,40 @@ function App() {
               <div className="h-1 w-32 bg-gradient-to-r from-cyan-500 to-transparent"></div>
             </div>
 
+            {/* Cognitive Architecture Visual */}
+            <div className="mb-16 relative">
+              <div className="relative overflow-hidden rounded-lg border-2 border-cyan-500/30 bg-black">
+                <img 
+                  src={COGNITIVE_ARCH_IMAGE} 
+                  alt="Cognitive Architecture: LFH Axiom Visualization" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="mt-6 grid md:grid-cols-3 gap-4">
+                <div className="flex items-center gap-3 p-4 bg-blue-500/10 border border-blue-500/30 rounded">
+                  <div className="w-4 h-4 bg-blue-500 rounded-full"></div>
+                  <div>
+                    <div className="text-sm font-bold text-blue-400">LOVE (L)</div>
+                    <div className="text-xs text-gray-400">QTT Core</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 p-4 bg-green-500/10 border border-green-500/30 rounded">
+                  <div className="w-4 h-4 bg-green-500 rounded-full"></div>
+                  <div>
+                    <div className="text-sm font-bold text-green-400">HOPE (H)</div>
+                    <div className="text-xs text-gray-400">Cosmos Vector</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 p-4 bg-red-500/10 border border-red-500/30 rounded">
+                  <div className="w-4 h-4 bg-red-500 rounded-full"></div>
+                  <div>
+                    <div className="text-sm font-bold text-red-400">FEAR (F)</div>
+                    <div className="text-xs text-gray-400">Logic Lock</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="grid md:grid-cols-2 gap-12 mb-16">
               <div className="space-y-8">
                 <div className="core-card" data-testid="lfh-axiom">
