@@ -90,7 +90,7 @@ function App() {
                 <img 
                   src={IDRIS_LOGO} 
                   alt="IDRIS AI Shield" 
-                  className="h-36 mx-auto mb-4 opacity-90"
+                  className="h-72 mx-auto mb-6 opacity-90"
                 />
                 <span className="text-green-400 text-sm tracking-[0.3em] font-mono block">
                   // IDRIS: AUGMENTED INTELLIGENCE (V8.0 COGNITIVE OS)
