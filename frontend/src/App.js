@@ -232,10 +232,12 @@ function App() {
               </div>
             </div>
 
-            <div className="border-l-4 border-cyan-500 pl-6 py-4 bg-cyan-500/5">
-              <p className="text-gray-300 italic text-lg">
-                "We build thermal sovereignty. From carbon-intensive terrestrial operations to the cosmos, 
-                our systems are the bridge between planetary entropy and orbital precision."
+            <div className="border-l-4 border-green-500 pl-6 py-4 bg-green-500/5 mt-8">
+              <p className="text-gray-300 text-xl font-mono leading-relaxed text-center">
+                Maximize U(Reality) = ∫ [L − F + H] dV dt
+              </p>
+              <p className="text-gray-400 text-sm text-center mt-3 italic">
+                The Objective Function: Structural integrity minus entropy plus expansion potential, integrated across all spacetime.
               </p>
             </div>
           </div>
