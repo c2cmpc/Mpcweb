@@ -87,9 +87,12 @@ function App() {
               <div className="mb-6">
                 <span className="text-cyan-400 text-sm tracking-[0.3em] font-mono">// 00. THE BEACON</span>
               </div>
-              <h1 className="text-7xl md:text-8xl font-bold mb-8 tracking-tight" data-testid="main-title">
+              <h1 className="text-7xl md:text-8xl font-bold mb-4 tracking-tight" data-testid="main-title">
                 CARBON<span className="text-cyan-400">TO</span>COSMOS
               </h1>
+              <p className="text-xl md:text-2xl text-cyan-400 mb-8 font-semibold tracking-[0.3em]">
+                SPACE AND DEFENCE
+              </p>
               <p className="text-2xl md:text-3xl text-gray-300 mb-12 font-light tracking-wide">
                 From Terrestrial Entropy to Orbital Sovereignty
               </p>
