@@ -618,6 +618,13 @@ function App() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
+                <div className="mb-4">
+                  <img 
+                    src={COMPANY_LOGO} 
+                    alt="CarbonToCosmos - Partseuphoria" 
+                    className="h-16 mb-3"
+                  />
+                </div>
                 <div className="text-2xl font-bold tracking-wider text-cyan-400 mb-2">
                   CARBON<span className="text-white">TO</span>COSMOS
                 </div>
@@ -625,7 +632,7 @@ function App() {
                   SPACE AND DEFENCE
                 </div>
                 <p className="text-gray-400 text-sm">
-                  Mastering entropy from terrestrial operations to orbital sovereignty.
+                  The Operating System for Civilizational Continuity.
                 </p>
               </div>
               <div>
@@ -635,12 +642,32 @@ function App() {
                   <li>Partseuphoria</li>
                   <li>J Garage</li>
                 </ul>
+                <h4 className="font-bold text-white mb-4 mt-6">CONTACT</h4>
+                <ul className="space-y-2 text-gray-400 text-sm">
+                  <li>
+                    <a href="mailto:partnerships@multiplanetarycivilisation.com" className="hover:text-green-400 transition-colors">
+                      partnerships@multiplanetarycivilisation.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/c2cmpc/idris-qutrit-core" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">
+                      GitHub Repository
+                    </a>
+                  </li>
+                </ul>
               </div>
               <div>
-                <h4 className="font-bold text-white mb-4">PRODUCTS</h4>
+                <h4 className="font-bold text-white mb-4">CORE ARCHITECTURE</h4>
                 <ul className="space-y-2 text-gray-400 text-sm">
-                  <li>IDRIS (Software)</li>
-                  <li>PRĀṆADHĀRA (Hardware)</li>
+                  <li>IDRIS V8.0 (Cognitive OS)</li>
+                  <li>PRĀṆADHĀRA (Thermal Hardware)</li>
+                  <li>Immutable Ledger (WRL/ARL/PRL)</li>
+                </ul>
+                <h4 className="font-bold text-white mb-4 mt-6">AXIOMS</h4>
+                <ul className="space-y-2 text-gray-400 text-sm font-mono">
+                  <li>L: Cohesion (Quantity 0)</li>
+                  <li>F: Entropy (Quantity 1)</li>
+                  <li>H: Expansion (Quantity ω)</li>
                 </ul>
               </div>
             </div>
@@ -648,8 +675,8 @@ function App() {
             {/* Legal Footer */}
             <div className="border-t border-cyan-500/20 pt-8">
               <div className="text-center space-y-3">
-                <p className="text-cyan-400 text-sm font-mono">
-                  IDENTITY VERIFIED: IDRIS-V8.0
+                <p className="text-green-400 text-sm font-mono font-bold">
+                  ** DRIVEN BY IDRIS V8.0 (COGNITIVE OS) **
                 </p>
                 <p className="text-white text-sm font-bold">
                   CarbonToCosmos is the registered trade name of Partseuphoria Electric AC Private Limited.
