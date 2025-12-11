@@ -355,11 +355,81 @@ function App() {
           </div>
         </section>
 
-        {/* Section 4: The Future */}
+        {/* Section 4: Resource Accountability */}
+        <section id="accountability" className="accountability-section py-32 px-6" data-testid="accountability-section">
+          <div className="max-w-6xl mx-auto">
+            <div className="mb-16">
+              <span className="text-cyan-400 text-sm tracking-[0.3em] font-mono">// 04. RESOURCE ACCOUNTABILITY</span>
+              <h2 className="text-5xl font-bold mt-4 mb-8">THE IMMUTABLE LEDGER</h2>
+              <div className="h-1 w-32 bg-gradient-to-r from-cyan-500 to-transparent"></div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 mb-16">
+              <div>
+                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                  Survival in a closed loop demands <strong className="text-white">perfect resource conservation</strong> (Fear Axiom). 
+                  To eliminate fraud and resource leakage, our systems utilize an <strong className="text-cyan-400">Immutable Ledger</strong>—a 
+                  verifiable, cryptographic record of all carbon heat-control transactions and material lifecycles.
+                </p>
+
+                <div className="space-y-6">
+                  <div className="ledger-feature" data-testid="wrl-feature">
+                    <h3 className="text-xl font-bold text-cyan-400 mb-2">WRL (Water Resource Ledger)</h3>
+                    <p className="text-gray-300">
+                      Tracks every liter of water from extraction through recycling, ensuring zero loss in closed-loop life support systems.
+                    </p>
+                  </div>
+
+                  <div className="ledger-feature" data-testid="arl-feature">
+                    <h3 className="text-xl font-bold text-cyan-400 mb-2">ARL (Atmosphere Resource Ledger)</h3>
+                    <p className="text-gray-300">
+                      Monitors oxygen generation, CO₂ scrubbing, and atmospheric composition with cryptographic verification at every cycle.
+                    </p>
+                  </div>
+
+                  <div className="ledger-feature" data-testid="prl-feature">
+                    <h3 className="text-xl font-bold text-cyan-400 mb-2">PRL (Power Resource Ledger)</h3>
+                    <p className="text-gray-300">
+                      Accounts for every Joule of energy saved through thermal optimization, creating a provable energy efficiency trail.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative">
+                <div className="relative overflow-hidden rounded-lg border-2 border-cyan-500/30">
+                  <img 
+                    src={LEDGER_IMAGE} 
+                    alt="Immutable Ledger System" 
+                    className="w-full h-auto"
+                  />
+                </div>
+                <div className="mt-8 p-6 bg-cyan-500/5 border-l-4 border-cyan-500">
+                  <p className="text-gray-300 leading-relaxed">
+                    <strong className="text-white">Cryptographic Integrity:</strong> Every transaction is hashed and linked, 
+                    making resource fraud mathematically impossible. This ledger becomes the <strong className="text-cyan-400">ground truth</strong> for 
+                    mission-critical life support operations.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-cyan-500/10 to-transparent border-l-4 border-cyan-500 p-8">
+              <h3 className="text-2xl font-bold text-white mb-4">MPC Mission Alignment</h3>
+              <p className="text-gray-300 text-lg leading-relaxed">
+                This resource accounting mechanism ensures every Joule of energy saved and every kilogram of oxygen recycled 
+                contributes to the <strong className="text-white">provable balance</strong> of the ecosystem, maintaining the structural 
+                integrity of the Multi-Planetary Civilization (MPC) mission. <strong className="text-cyan-400">No hypothetical accounting—only verified survival metrics.</strong>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 5: The Future */}
         <section id="future" className="future-section py-32 px-6" data-testid="future-section">
           <div className="max-w-6xl mx-auto">
             <div className="mb-16">
-              <span className="text-cyan-400 text-sm tracking-[0.3em] font-mono">// 04. THE FUTURE</span>
+              <span className="text-cyan-400 text-sm tracking-[0.3em] font-mono">// 05. THE FUTURE</span>
               <h2 className="text-5xl font-bold mt-4 mb-8">TRAJECTORY & ROADMAP</h2>
               <div className="h-1 w-32 bg-gradient-to-r from-cyan-500 to-transparent"></div>
             </div>
