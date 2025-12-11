@@ -198,6 +198,16 @@ function App() {
               We do not hypothesize—we build, verify, and survive.
             </p>
 
+            {/* Heritage Visual */}
+            <div className="mb-16 relative overflow-hidden rounded-lg border-2 border-cyan-500/30">
+              <img 
+                src={HERITAGE_IMAGE} 
+                alt="HR Traders & J Garage Heritage" 
+                className="w-full h-auto"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+            </div>
+
             <div className="space-y-12">
               <div className="heritage-item" data-testid="hr-traders-heritage">
                 <div className="flex items-start gap-6">
