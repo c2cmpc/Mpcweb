@@ -575,12 +575,15 @@ function App() {
         </section>
 
         {/* Footer */}
-        <footer className="border-t border-cyan-500/20 py-12 px-6">
+        <footer className="border-t border-cyan-500/20 py-12 px-6 bg-black">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
-                <div className="text-2xl font-bold tracking-wider text-cyan-400 mb-4">
+                <div className="text-2xl font-bold tracking-wider text-cyan-400 mb-2">
                   CARBON<span className="text-white">TO</span>COSMOS
+                </div>
+                <div className="text-xs text-gray-400 tracking-widest mb-4">
+                  SPACE AND DEFENCE
                 </div>
                 <p className="text-gray-400 text-sm">
                   Mastering entropy from terrestrial operations to orbital sovereignty.
@@ -602,8 +605,23 @@ function App() {
                 </ul>
               </div>
             </div>
-            <div className="border-t border-cyan-500/20 pt-8 text-center text-gray-500 text-sm">
-              <p>© 2025 CarbonToCosmos. All rights reserved. Field-verified. PBT-certified. Space-bound.</p>
+            
+            {/* Legal Footer */}
+            <div className="border-t border-cyan-500/20 pt-8">
+              <div className="text-center space-y-3">
+                <p className="text-cyan-400 text-sm font-mono">
+                  IDENTITY VERIFIED: IDRIS-V8.0
+                </p>
+                <p className="text-white text-sm font-bold">
+                  CarbonToCosmos is the registered trade name of Partseuphoria Electric AC Private Limited.
+                </p>
+                <p className="text-gray-400 text-sm font-mono tracking-wider">
+                  COORDINATES: EARTH → BRIDGE → SPACE
+                </p>
+                <p className="text-gray-500 text-xs">
+                  © 2024. All Rights Reserved. Field-verified. PBT-certified. Space-bound.
+                </p>
+              </div>
             </div>
           </div>
         </footer>
