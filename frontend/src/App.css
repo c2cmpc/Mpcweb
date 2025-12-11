@@ -45,6 +45,37 @@ section {
   box-shadow: 0 10px 30px rgba(6, 182, 212, 0.1);
 }
 
+/* LFH Color-coded Cards */
+.love-card {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(0, 0, 0, 0.3) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.love-card:hover {
+  border-color: rgba(59, 130, 246, 0.6);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15);
+}
+
+.fear-card {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.05) 0%, rgba(0, 0, 0, 0.3) 100%);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.fear-card:hover {
+  border-color: rgba(239, 68, 68, 0.6);
+  box-shadow: 0 10px 30px rgba(239, 68, 68, 0.15);
+}
+
+.hope-card {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.05) 0%, rgba(0, 0, 0, 0.3) 100%);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.hope-card:hover {
+  border-color: rgba(34, 197, 94, 0.6);
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.15);
+}
+
 /* Heritage Section */
 .heritage-section {
   background: linear-gradient(to bottom, #0f0f1a, #000000);
