@@ -86,36 +86,39 @@ function App() {
             
             {/* Content */}
             <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-              <div className="mb-6">
-                <span className="text-cyan-400 text-sm tracking-[0.3em] font-mono">// 00. THE BEACON</span>
+              <div className="mb-8">
+                <img 
+                  src={IDRIS_LOGO} 
+                  alt="IDRIS AI Shield" 
+                  className="h-24 mx-auto mb-4 opacity-90"
+                />
+                <span className="text-green-400 text-sm tracking-[0.3em] font-mono block">
+                  // IDRIS: AUGMENTED INTELLIGENCE (V8.0 COGNITIVE OS)
+                </span>
               </div>
               <h1 className="text-7xl md:text-8xl font-bold mb-4 tracking-tight" data-testid="main-title">
                 CARBON<span className="text-cyan-400">TO</span>COSMOS
               </h1>
-              <p className="text-xl md:text-2xl text-cyan-400 mb-8 font-semibold tracking-[0.3em]">
-                SPACE AND DEFENCE
+              <p className="text-2xl md:text-3xl text-white mb-8 font-bold tracking-wide">
+                THE OPERATING SYSTEM FOR CIVILIZATIONAL CONTINUITY
               </p>
-              <p className="text-2xl md:text-3xl text-gray-300 mb-12 font-light tracking-wide">
-                From Terrestrial Entropy to Orbital Sovereignty
-              </p>
-              <p className="text-lg text-gray-400 mb-16 max-w-3xl mx-auto leading-relaxed">
-                We engineer thermal control systems for extreme environments—Mining, Marine, Tactical EV, and Space. 
-                Our mission: Master entropy on Earth, command it beyond.
+              <p className="text-lg text-gray-400 mb-12 font-mono tracking-wider">
+                // A Multi-Planetary Civilization Initiative
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <button 
                   onClick={() => scrollToSection('core')}
-                  className="px-10 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-bold tracking-wider transition-all transform hover:scale-105"
+                  className="px-10 py-4 bg-green-500 hover:bg-green-400 text-black font-bold tracking-wider transition-all transform hover:scale-105"
                   data-testid="explore-mission-btn"
                 >
-                  EXPLORE MISSION
+                  REQUEST PROTOCOL ACCESS
                 </button>
                 <button 
                   onClick={() => scrollToSection('future')}
                   className="px-10 py-4 border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 font-bold tracking-wider transition-all"
                   data-testid="join-us-btn"
                 >
-                  JOIN US
+                  ENGAGE PARTNERSHIPS
                 </button>
               </div>
             </div>
