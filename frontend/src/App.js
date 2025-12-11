@@ -3,6 +3,7 @@ import "@/App.css";
 import { BrowserRouter } from "react-router-dom";
 
 const HERO_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/a43piady_Generated%20Image%20December%2011%2C%202025%20-%206_56PM.png";
+const COGNITIVE_ARCH_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/bl3jcr5p_Generated%20Image%20December%2011%2C%202025%20-%208_05PM.png";
 const HERITAGE_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/gh9hp9i9_Generated%20Image%20December%2011%2C%202025%20-%207_41PM.png";
 const LEDGER_IMAGE = "https://customer-assets.emergentagent.com/job_idris-mission/artifacts/xlr4xplw_Generated%20Image%20December%2011%2C%202025%20-%207_56PM.png";
 
