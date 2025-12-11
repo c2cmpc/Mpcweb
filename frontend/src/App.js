@@ -588,13 +588,26 @@ function App() {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <button className="px-12 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-lg tracking-wider transition-all transform hover:scale-105" data-testid="contact-btn">
-                    INITIATE CONTACT
-                  </button>
-                  <button className="px-12 py-4 border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 font-bold text-lg tracking-wider transition-all" data-testid="download-deck-btn">
-                    DOWNLOAD DECK
-                  </button>
+                  <a 
+                    href="mailto:partnerships@multiplanetarycivilisation.com"
+                    className="px-12 py-4 bg-green-500 hover:bg-green-400 text-black font-bold text-lg tracking-wider transition-all transform hover:scale-105 text-center"
+                    data-testid="contact-btn"
+                  >
+                    ENGAGE PARTNERSHIPS TEAM
+                  </a>
+                  <a 
+                    href="https://github.com/c2cmpc/idris-qutrit-core"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-12 py-4 border-2 border-green-500 text-green-400 hover:bg-green-500/10 font-bold text-lg tracking-wider transition-all text-center"
+                    data-testid="github-btn"
+                  >
+                    VIEW GITHUB REPOSITORY
+                  </a>
                 </div>
+                <p className="text-gray-400 text-sm mt-6 text-center">
+                  We are actively seeking strategic partnerships for high-performance compute access (Quantum/GPU) and dual-use Defense/Space deployment.
+                </p>
               </div>
             </div>
           </div>
