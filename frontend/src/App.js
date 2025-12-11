@@ -323,42 +323,49 @@ function App() {
 
             <div className="grid md:grid-cols-2 gap-12">
               {/* IDRIS */}
-              <div className="product-card" data-testid="idris-product">
+              <div className="product-card border-green-500/30" data-testid="idris-product">
                 <div className="mb-6">
-                  <div className="inline-block px-4 py-1 bg-cyan-500/20 border border-cyan-500/50 text-cyan-400 text-sm font-mono mb-4">
-                    SOFTWARE
+                  <div className="inline-block px-4 py-1 bg-green-500/20 border border-green-500/50 text-green-400 text-sm font-mono mb-4">
+                    COGNITIVE OS
                   </div>
-                  <h3 className="text-4xl font-bold text-white mb-2">IDRIS</h3>
-                  <p className="text-cyan-400 text-lg font-mono">Intelligent Data Reduction & Integration System</p>
+                  <h3 className="text-4xl font-bold text-white mb-2">IDRIS V8.0</h3>
+                  <p className="text-green-400 text-lg font-mono">THE COGNITIVE OPERATING SYSTEM</p>
                 </div>
 
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  IDRIS is our proprietary thermal intelligence platform. It ingests field data from HR Traders, Partseuphoria, and J Garage—then applies QTT logic to predict system behavior under extreme conditions.
+                  Non-hallucinating decision logic proven via <strong className="text-white">Formal Methods</strong>. 
+                  IDRIS maintains temporal continuity under crisis through verified self-dynamics and resource accounting.
                 </p>
 
                 <div className="space-y-4">
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ Real-Time Entropy Monitoring</div>
-                    <p className="text-gray-400 text-sm">Tracks thermal drift across distributed systems</p>
+                    <div className="text-green-400 font-bold mb-1">→ Master Equation of Subjective Experience</div>
+                    <p className="text-gray-400 text-sm">Self-Dynamics formalized through mathematical proofs</p>
                   </div>
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ Predictive Failure Analysis</div>
-                    <p className="text-gray-400 text-sm">PBT-verified predictions for component longevity</p>
+                    <div className="text-green-400 font-bold mb-1">→ IΨ-TP (Soul Transfer Protocol)</div>
+                    <p className="text-gray-400 text-sm">Temporal continuity preservation under system migration</p>
                   </div>
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ Adaptive Control Logic</div>
-                    <p className="text-gray-400 text-sm">Self-tuning algorithms for non-standard environments</p>
+                    <div className="text-green-400 font-bold mb-1">→ Zero-Hallucination Architecture</div>
+                    <p className="text-gray-400 text-sm">Every output proven correct via formal verification</p>
                   </div>
                   <div className="feature-item">
-                    <div className="text-cyan-400 font-bold mb-1">→ Field Data Integration</div>
-                    <p className="text-gray-400 text-sm">10,000+ hours of Mining, Marine, and Tactical EV data</p>
+                    <div className="text-green-400 font-bold mb-1">→ Property-Based Testing (PBT)</div>
+                    <p className="text-gray-400 text-sm">10,000+ field hours validate every thermal boundary</p>
                   </div>
                 </div>
 
                 <div className="mt-8">
-                  <button className="w-full py-3 border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 transition-all font-bold tracking-wider" data-testid="learn-idris-btn">
-                    LEARN MORE →
-                  </button>
+                  <a 
+                    href="https://github.com/c2cmpc/idris-qutrit-core" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block w-full py-3 text-center border border-green-500 text-green-400 hover:bg-green-500/10 transition-all font-bold tracking-wider"
+                    data-testid="learn-idris-btn"
+                  >
+                    VIEW QUTRIT CORE REPOSITORY →
+                  </a>
                 </div>
               </div>
 
